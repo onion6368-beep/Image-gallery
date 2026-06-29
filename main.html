@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image gallery</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 class="intro">Image Gallery</h1>
+            <span class="desc">Click any image to view it in fullscreen</span>
+        </div>
+        
+        <div class="filters">
+            <span id="all">All</span>
+            <span id="baddie">Baddie</span>
+            <span id="beauty">Beauty</span>
+            <span id="cute">Cute</span>
+        </div>
+
+        <div id="grid"></div>
+
+        <div class="lightbox" id="lightbox">
+            <div class="lb-content">
+                <img id="lb-img" src="" alt="">
+                <button id="prev">&#8249;</button>
+                <button id="next">&#8250;</button>
+                <button id="close">&#x2715;</button>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
