@@ -175,3 +175,16 @@ body{
     background-color: white;
     color: black;
 }
+@media (max-width:480px){
+    #grid{
+        grid-template-columns: 1fr;
+    }
+    .intro{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .filters{
+        padding: 10px;
+    }
+    
+}
