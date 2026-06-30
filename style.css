@@ -175,59 +175,16 @@ body{
     background-color: white;
     color: black;
 }
-/* Tablet and below */
-@media (max-width: 1024px) {
-    #grid {
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    }
-}
-
-/* Small tablets / large phones */
-@media (max-width: 768px) {
-    .intro {
-        font-size: 36px;
-    }
-
-    .filters {
-        flex-wrap: wrap;
-        gap: 10px;
-        padding: 20px;
-        margin: 20px;
-    }
-
-    #grid {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 12px;
-        padding: 12px;
-    }
-
-    .image-grid {
-        height: 220px;
-    }
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-    .intro {
-        font-size: 28px;
-    }
-
-    .desc {
-        font-size: 14px;
-    }
-
-    #grid {
+@media (max-width:480px){
+    #grid{
         grid-template-columns: 1fr;
     }
-
-    .lb-content {
-        width: 95%;
-        height: 60vh;
+    .intro{
+        font-size: 30px;
+        margin-top: 30px;
     }
-
-    #prev, #next {
-        width: 35px;
-        height: 35px;
-        font-size: 1.2rem;
+    .filters{
+        padding: 10px;
     }
+    
 }
