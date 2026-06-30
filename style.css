@@ -181,10 +181,15 @@ body{
     }
     .intro{
         font-size: 30px;
-        margin-top: 30px;
+        margin-top: 10px;
+    }
+    .desc{
+        font-size:12px;
     }
     .filters{
         padding: 10px;
     }
-    
+    #all,#baddie,#beauty,#cute{
+        font-size:12px;
+    }
 }
