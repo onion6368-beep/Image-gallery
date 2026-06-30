@@ -30,7 +30,6 @@ body{
     justify-content: center;
     cursor: pointer;
     color:white;
-    border:1px solid #1a1a1a;
     padding:40px;
     margin:40px;
 }
@@ -177,7 +176,7 @@ body{
 }
 @media (max-width:480px){
     #grid{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; 
     }
     .intro{
         font-size: 30px;
@@ -191,5 +190,8 @@ body{
     }
     #all,#baddie,#beauty,#cute{
         font-size:12px;
+    }
+    .image-grid{
+        height:220px;
     }
 }
